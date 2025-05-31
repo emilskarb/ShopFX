@@ -1,6 +1,22 @@
-.textfield-main{
-    -fx-background-radius: 20px; /* Promień zaokrąglenia tła */
-        -fx-border-radius: 20px;    /* Promień zaokrąglenia obramowania */
-        -fx-border-color: green;     /* Opcjonalnie: kolor obramowania */
-        -fx-border-width: 2px;
+*{
+    -fx-font-size: 18px;
+    -fx-font-family:  Perpetua Titling MT;
 }
+
+.textfield-main{
+    -fx-background-radius: 20px;
+    -fx-background-color:  #00EF24;
+}
+
+.button-main{
+    -fx-background-radius: 20px;
+    -fx-background-color: #4E00F0;
+    -fx-text-fill: white;
+}
+
+/*
+#F07B00
+#349B43
+#705538
+#4A3870
+*/

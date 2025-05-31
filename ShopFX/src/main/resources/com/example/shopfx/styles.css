@@ -1,0 +1,6 @@
+.textfield-main{
+    -fx-background-radius: 20px; /* Promień zaokrąglenia tła */
+        -fx-border-radius: 20px;    /* Promień zaokrąglenia obramowania */
+        -fx-border-color: green;     /* Opcjonalnie: kolor obramowania */
+        -fx-border-width: 2px;
+}

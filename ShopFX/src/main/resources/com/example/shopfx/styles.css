@@ -8,15 +8,33 @@
     -fx-background-color:  #00EF24;
 }
 
-.button-main{
+.button-main{                                   //TODO zmienić nazewnictwo z main na login
     -fx-background-radius: 20px;
     -fx-background-color: #4E00F0;
     -fx-text-fill: white;
 }
 
+.label-category{
+    -fx-background-color: transparent;
+    -fx-font-size: 21px;
+}
+
+.product-shop{
+    -fx-background-color: #349B43;
+}
+
+.button-shop{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+
 /*
-#F07B00
-#349B43
-#705538
-#4A3870
+#00EF24     lgreen
+#4E00F0     dblue
+#F07B00     orange
+#349B43     green
+#705538     brown
+#4A3870     purple
 */

@@ -35,7 +35,7 @@ public class LoginController {
         if (userFound) {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("shop-view.fxml"));
-                Scene mainScene = new Scene(fxmlLoader.load(), 720, 640);
+                Scene mainScene = new Scene(fxmlLoader.load(), 785, 545);
                 Stage stage = (Stage) login_button.getScene().getWindow();
                 stage.setScene(mainScene);
                 stage.setTitle("Panel sklepu");

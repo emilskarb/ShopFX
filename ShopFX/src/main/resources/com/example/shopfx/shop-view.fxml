@@ -4,12 +4,14 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="522.0" prefWidth="785.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.ShopController">
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane prefHeight="522.0" prefWidth="785.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.ShopController">
    <children>
       <HBox alignment="CENTER_RIGHT" prefHeight="96.0" prefWidth="785.0" spacing="20.0" style="-fx-background-color: #4E00F0;">
          <children>
@@ -126,4 +128,4 @@
          </children>
       </VBox>
    </children>
-</AnchorPane>
+</FlowPane>

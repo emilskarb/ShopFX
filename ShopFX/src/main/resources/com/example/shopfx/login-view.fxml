@@ -4,9 +4,10 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.LoginController">
+<?import javafx.scene.layout.FlowPane?>
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.LoginController">
 <!--   <children>-->
       <TextField fx:id="login_id" layoutX="249.0" layoutY="160.0" prefHeight="54.0" prefWidth="150.0" promptText="Login" styleClass="textfield-main">
          <opaqueInsets>
@@ -18,4 +19,4 @@
       <Label layoutX="197.0" layoutY="254.0" prefHeight="54.0" prefWidth="52.0" text="Hasło:" />
       <Button fx:id="login_button" layoutX="237.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="90.0" styleClass="button-main" text="Zaloguj" />
 <!--   </children>-->
-</AnchorPane>
+</FlowPane>

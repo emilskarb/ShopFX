@@ -76,6 +76,9 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>com.example.shopfx/com.example.shopfx.HelloApplication</mainClass>
+                            <arguments>
+                                <argument>--enable-native-access=javafx.graphics</argument>
+                            </arguments>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

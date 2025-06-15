@@ -5,12 +5,12 @@
 
 .textfield-main{
     -fx-background-radius: 20px;
-    -fx-background-color:  #00EF24;
+    -fx-background-color:  #bdc3c7;
 }
 
 .button-main{                                   //TODO zmienić nazewnictwo z main na login
     -fx-background-radius: 20px;
-    -fx-background-color: #4E00F0;
+    -fx-background-color:  #7f8c8d;
     -fx-text-fill: white;
 }
 
@@ -20,12 +20,12 @@
 }
 
 .product-shop{
-    -fx-background-color: #349B43;
+    -fx-background-color: #7f8c8d;
 }
 
 .button-shop{
     -fx-background-radius: 20px;
-    -fx-background-color: white;
+    -fx-background-color: #bdc3c7;
     -fx-text-fill: black;
 }
 
